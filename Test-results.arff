@@ -1,0 +1,64 @@
+@relation Test-results
+
+@attribute test_response {A1,A2,A3,B1,B2,B3,C1,C2,C3,D1,D2,D3,E1,E2,E3,F1,F2,F3,G1,G2,G3,H1,H2,H3,I1,I2,I3,J1,J2,J3,K1,K2,K3,L1,L2,L3,M1,M2,M3,N1,N2,N3,O1,O2,O3,P1,P2,P3,Q1,Q2,Q3,R1,R2,R3}
+@attribute test_word_1 {library,give,lectures,thank,data,stress,way,how,systems,module,bye,research,tests,help,stack,hi,test,hey,travel,table,exams,ai,depress,full,thanks,are,computer,exam,you,revise,project,time,deadline,goodbye,timetable,it}
+@attribute test_word_2 {help,ai,thank,project,hey,table,library,time,test,travel,computer,full,timetable,goodbye,data,lectures,stack,direction,support,deadline,campus,doing,exam,depress,you,systems,exams,how,module,give,struggling,structure,welfare,way,month}
+@attribute test_word_3 {test,way,exam,deadline,travel,full,it,lectures,month,revision,best,calendar,campus,welfare,systems,are,depress,bye,module,project,revise,give,struggling,support,timetable,structure,you,goodbye,library,tests,stress,direction,help}
+@attribute test_word_4 {way,how,revise,bye,module,doing,campus,lectures,advice,depress,thank,struggling,welfare,depression,revision,stress,give,it,month,time,data,deadlines,stack,hi,test,best,research,hello,tests,full}
+@attribute outcome {correct,incorrect}
+
+@data
+A1,library,help,test,way,correct
+A2,give,ai,way,how,correct
+A3,lectures,thank,exam,revise,correct
+B1,thank,project,deadline,bye,correct
+B2,data,hey,travel,module,correct
+B3,stress,table,full,doing,correct
+C1,way,library,it,campus,incorrect
+C2,how,time,lectures,lectures,correct
+C3,systems,test,month,advice,correct
+D1,module,travel,revision,module,correct
+D2,bye,computer,best,depress,correct
+D3,research,full,calendar,thank,correct
+E1,tests,timetable,campus,struggling,correct
+E2,help,goodbye,lectures,revise,correct
+E3,stack,project,welfare,welfare,correct
+F1,hi,data,systems,depression,correct
+F2,lectures,lectures,are,revision,correct
+F3,test,stack,depress,stress,correct
+G1,hey,direction,bye,revise,correct
+G2,travel,support,module,give,correct
+G3,travel,deadline,project,it,correct
+H1,table,campus,revise,month,correct
+H2,module,doing,lectures,lectures,correct
+H3,exams,exam,module,time,correct
+I1,ai,depress,give,how,correct
+I2,research,library,struggling,data,correct
+I3,how,you,support,deadlines,correct
+J1,depress,lectures,timetable,stack,correct
+J2,tests,thank,way,hi,correct
+J3,module,systems,it,welfare,correct
+K1,full,exams,give,advice,correct
+K2,thanks,table,structure,test,correct
+K3,are,how,lectures,best,correct
+L1,lectures,help,lectures,it,correct
+L2,computer,direction,you,research,correct
+L3,lectures,ai,lectures,module,incorrect
+M1,stress,module,goodbye,hello,correct
+M2,lectures,data,calendar,revision,correct
+M3,exam,deadline,project,month,correct
+N1,module,give,way,time,correct
+N2,you,struggling,revise,tests,correct
+N3,revise,lectures,lectures,bye,correct
+O1,project,structure,support,campus,correct
+O2,time,stack,lectures,doing,correct
+O3,how,module,module,module,correct
+P1,hi,welfare,library,depress,correct
+P2,research,table,tests,full,correct
+P3,lectures,thank,travel,lectures,correct
+Q1,deadline,data,stress,advice,correct
+Q2,goodbye,way,direction,lectures,correct
+Q3,module,lectures,systems,revise,correct
+R1,time,month,help,module,correct
+R2,timetable,ai,full,how,correct
+R3,it,doing,lectures,lectures,correct
