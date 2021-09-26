@@ -60,12 +60,10 @@ def check_all_messages(message):
 
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
-    # print(highest_prob_list)
-    # print(f'Best match = {best_match} | Score: {highest_prob_list[best_match]}')
 
     return complex.unknown() if highest_prob_list[best_match] < 5 else best_match
 
 
-# Testing the response system
+# Start of the chatbot
 while True:
     print('Bothoven: ' + get_response(input('You: ')))
